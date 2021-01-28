@@ -5,7 +5,7 @@ from .forms import CityForm
 
 # Create your views here.
 def index(request):
-    url = 'http://api.openweathermap.org/data/2.5/weather?q={}&units=imperial&appid=3b156074d305eb421e2f6a5cff56b92a'
+    url = 'http://api.openweathermap.org/data/2.5/weather?q={victoria}&units=imperial&appid=3b156074d305eb421e2f6a5cff56b92a'
 
     err_msg = ''
     message = ''
